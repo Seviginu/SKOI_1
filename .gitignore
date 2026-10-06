@@ -1,0 +1,41 @@
+# Отчёты и результаты сборки отчётов
+/report/
+/output/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Сборка C++ / CMake
+/build*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+/chroma_key
+
+# Редакторы и системные файлы
+.DS_Store
+._*
+.idea/
+.vscode/
+.agents/
+.codex/
+*.swp
+*.swo
+*~
+
+# Архив дополнительных видео
+/test-videos.zip
